@@ -1,12 +1,6 @@
-//
-//  FreeFoodTableViewController.swift
-//  FreeFood
-//
-//
-
 import UIKit
 
-class FreeFoodTableViewController: UITableViewController,XMLParserDelegate, UISearchBarDelegate {
+class FreeFoodTableViewController: UITableViewController, XMLParserDelegate, UISearchBarDelegate {
     var item:[String:String] = [:]
     var items:[[String:String]] = []
     var key = ""

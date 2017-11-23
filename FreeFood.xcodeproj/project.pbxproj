@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		051445041FAAAF9A00B20DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051445031FAAAF9A00B20DF5 /* AppDelegate.swift */; };
-		051445061FAAAF9A00B20DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051445051FAAAF9A00B20DF5 /* ViewController.swift */; };
 		051445091FAAAF9A00B20DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051445071FAAAF9A00B20DF5 /* Main.storyboard */; };
 		0514450B1FAAAF9A00B20DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0514450A1FAAAF9A00B20DF5 /* Assets.xcassets */; };
-		0514450E1FAAAF9A00B20DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0514450C1FAAAF9A00B20DF5 /* LaunchScreen.storyboard */; };
 		051445161FAAAFF700B20DF5 /* FreeFoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051445151FAAAFF700B20DF5 /* FreeFoodTableViewController.swift */; };
 		24359E081FB4072200B8FF05 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24359E071FB4072200B8FF05 /* test.swift */; };
 		24359E0B1FB4073500B8FF05 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24359E0A1FB4073500B8FF05 /* MapKit.framework */; };
@@ -20,10 +18,8 @@
 /* Begin PBXFileReference section */
 		051445001FAAAF9A00B20DF5 /* FreeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		051445031FAAAF9A00B20DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		051445051FAAAF9A00B20DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		051445081FAAAF9A00B20DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0514450A1FAAAF9A00B20DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0514450D1FAAAF9A00B20DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0514450F1FAAAF9A00B20DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		051445151FAAAFF700B20DF5 /* FreeFoodTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeFoodTableViewController.swift; sourceTree = "<group>"; };
 		24359E071FB4072200B8FF05 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
@@ -63,11 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				051445031FAAAF9A00B20DF5 /* AppDelegate.swift */,
-				051445051FAAAF9A00B20DF5 /* ViewController.swift */,
 				051445071FAAAF9A00B20DF5 /* Main.storyboard */,
 				051445151FAAAFF700B20DF5 /* FreeFoodTableViewController.swift */,
 				0514450A1FAAAF9A00B20DF5 /* Assets.xcassets */,
-				0514450C1FAAAF9A00B20DF5 /* LaunchScreen.storyboard */,
 				0514450F1FAAAF9A00B20DF5 /* Info.plist */,
 				24359E071FB4072200B8FF05 /* test.swift */,
 			);
@@ -142,7 +136,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0514450E1FAAAF9A00B20DF5 /* LaunchScreen.storyboard in Resources */,
 				0514450B1FAAAF9A00B20DF5 /* Assets.xcassets in Resources */,
 				051445091FAAAF9A00B20DF5 /* Main.storyboard in Resources */,
 			);
@@ -155,7 +148,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				051445061FAAAF9A00B20DF5 /* ViewController.swift in Sources */,
 				24359E081FB4072200B8FF05 /* test.swift in Sources */,
 				051445161FAAAFF700B20DF5 /* FreeFoodTableViewController.swift in Sources */,
 				051445041FAAAF9A00B20DF5 /* AppDelegate.swift in Sources */,
@@ -171,14 +163,6 @@
 				051445081FAAAF9A00B20DF5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0514450C1FAAAF9A00B20DF5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0514450D1FAAAF9A00B20DF5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

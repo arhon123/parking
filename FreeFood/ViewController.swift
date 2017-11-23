@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  FreeFood
-//
-//  Created by 김종현 on 2017. 11. 2..
-//  Copyright © 2017년 김종현. All rights reserved.
-//
 
 import UIKit
 

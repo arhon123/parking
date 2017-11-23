@@ -1,11 +1,3 @@
-//
-//  test.swift
-//  FreeFood
-//
-//  Created by D7703_14 on 2017. 11. 9..
-//  Copyright © 2017년 김종현. All rights reserved.
-//
-
 import UIKit
 import MapKit
 
